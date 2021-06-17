@@ -1,2 +1,1 @@
-# Ulbra C++
-Minhas atividades da Ulbra com C++
+Atividade foi criar uma página somente com HTML sobre o COVID-19.

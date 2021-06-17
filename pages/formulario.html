@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body bgcolor="lightblue">
+    <center>
+        <font color="purple" size="10" face="sans-serif"><a href="../index.html">Formulário COVID-19</a></font>
+    </center>
+
+    <form action="/" method="post">
+        Nome: <input type="text" name="nome" size="25" placeholder="Informe o seu nome">
+
+        <br /><br />
+        
+        Idade: <input type="number" name="idade" maxlength="3" placeholder="Informe a sua idade">
+        
+        <hr size="10" color="purple"/>
+
+        <h2 align="justify">
+            Nos últimos dias teve febre ou sintamos que sugerem infecção 
+            respiratória (tosse, falta de ar, dificuldade de respirar),
+            coriza, dor de garganta, perda ou diminuição do olfato,
+            alteração do paladar, diarreia?
+        </h2>
+        
+        <input type="radio" name="febre-sim">Sim
+        <br />
+        <input type="radio" name="febre-nao">Não
+
+        <h2 align="left">Se sim, quais?</h2>
+        
+        <div align="center">
+            <input type="checkbox" name="coriza">Coriza
+            <input type="checkbox" name="dor-de-garganta">Dor de Garganta
+            <input type="checkbox" name="falta-de-ar">Falta de Ar
+            <input type="checkbox" name="dificuldade-de-respirar">Dificuldade de Respirar
+            <input type="checkbox" name="tosse">Tosse
+            <input type="checkbox" name="perda-ou-reducao-do-olfato">Perda ou Redução do Olfato
+            <input type="checkbox" name="alteracao-no-paladar">Alteração no Paladar
+            <input type="checkbox" name="diarreia">Diarreia
+        </div>
+
+        <br />
+
+        <textarea name="opiniao" rows="12" cols="100">
+            Quando voltaremos ao "normal" sem o COVID-19?
+        </textarea>
+
+        <br /><br /><br />
+        
+        <div align="center">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</body>
+</html>
